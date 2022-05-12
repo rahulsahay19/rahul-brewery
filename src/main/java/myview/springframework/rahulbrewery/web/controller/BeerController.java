@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
+//@Deprecated - Visual way to mark in source control
 @RequestMapping("/api/v1/beer")
 @RestController
 public class BeerController {
